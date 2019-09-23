@@ -4,3 +4,6 @@
 [submodule "pack/bundle/start/surround"]
 	path = pack/bundle/start/surround
 	url = https://tpope.io/vim/surround.git
+[submodule "pack/bundle/start/vim-easymotion"]
+	path = pack/bundle/start/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion
