@@ -27,3 +27,10 @@ set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
 set undofile
+
+if &term =~ '^xterm'
+" normal mode
+    let &t_EI .= "\<Esc>[0 q"
+" insert mode
+    let &t_SI .= "\<Esc>[6 q"
+endif
