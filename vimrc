@@ -19,14 +19,12 @@ set showcmd
 set hidden
 set wildmenu
 set wildmode=list:longest
-set visualbell
 set cursorline
 set ttyfast
 set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
-set undofile
 
 if &term =~ '^xterm'
 " normal mode
