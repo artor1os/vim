@@ -10,3 +10,6 @@
 [submodule "pack/bundle/start/hardtime"]
 	path = pack/bundle/start/hardtime
 	url = https://github.com/takac/vim-hardtime.git
+[submodule "pack/bundle/start/nerdtree"]
+	path = pack/bundle/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
