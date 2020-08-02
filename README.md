@@ -12,8 +12,12 @@ https://github.com/tpope/vim-sensible
 
 ### surround
 
-https://github.com/tpope/surround
+https://github.com/tpope/vim-surround
 
-### vim-easymotion
+### easymotion
 
 https://github.com/easymotion/vim-easymotion
+
+### hardtime
+
+https://github.com/takac/vim-hardtime
