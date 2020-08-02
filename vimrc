@@ -65,7 +65,7 @@ set background=dark
 " Code Folding Options
 " --------------------
 
-set foldmethod=indent
+" set foldmethod=indent
 " set foldnestmax=3
 " set nofoldenable
 
