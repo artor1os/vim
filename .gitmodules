@@ -3,7 +3,7 @@
 	url = https://github.com/tpope/vim-sensible.git
 [submodule "pack/bundle/start/surround"]
 	path = pack/bundle/start/surround
-	url = https://tpope.io/vim/surround.git
+	url = https://github.com/tpope/vim-surround.git
 [submodule "pack/bundle/start/vim-easymotion"]
 	path = pack/bundle/start/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion
