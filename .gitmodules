@@ -4,9 +4,9 @@
 [submodule "pack/bundle/start/surround"]
 	path = pack/bundle/start/surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule "pack/bundle/start/vim-easymotion"]
-	path = pack/bundle/start/vim-easymotion
-	url = https://github.com/easymotion/vim-easymotion
+[submodule "pack/bundle/start/easymotion"]
+	path = pack/bundle/start/easymotion
+	url = https://github.com/easymotion/vim-easymotion.git
 [submodule "pack/bundle/start/hardtime"]
 	path = pack/bundle/start/hardtime
-	url = https://github.com/takac/vim-hardtime
+	url = https://github.com/takac/vim-hardtime.git
