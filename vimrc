@@ -123,8 +123,8 @@ let g:hardtime_maxcount=1
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
-nnoremap <Leader>n :NERDTreeToggle<CR>
-nnoremap <silent> <Leader>v :NERDTreeFind<CR>
+nnoremap <Leader>n :<C-u>NERDTreeToggle<CR>
+nnoremap <silent> <Leader>v :<C-u>NERDTreeFind<CR>
 
 let NERDTreeQuitOnOpen=1
 
@@ -134,6 +134,9 @@ let NERDTreeAutoDeleteBuffer=1
 
 let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=1
+
+" fzf
+nnoremap <Leader>s :<C-u>FZF<CR>
 
 " ----------------
 " WSL cursor issue
