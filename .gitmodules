@@ -16,3 +16,6 @@
 [submodule "pack/bundle/start/nerdtree-git-plugin"]
 	path = pack/bundle/start/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin
+[submodule "pack/bundle/start/fzf"]
+	path = pack/bundle/start/fzf
+	url = https://github.com/junegunn/fzf.git
