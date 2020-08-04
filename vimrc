@@ -117,6 +117,23 @@ let g:hardtime_allow_different_key=0
 
 let g:hardtime_maxcount=1
 
+" NERDTree
+
+" Open when no files were specified
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+nnoremap <Leader>n :NERDTreeToggle<CR>
+nnoremap <silent> <Leader>v :NERDTreeFind<CR>
+
+let NERDTreeQuitOnOpen=1
+
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+let NERDTreeAutoDeleteBuffer=1
+
+let NERDTreeMinimalUI=1
+let NERDTreeDirArrows=1
 
 " ----------------
 " WSL cursor issue
