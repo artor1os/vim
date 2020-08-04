@@ -138,6 +138,13 @@ let NERDTreeDirArrows=1
 " fzf
 nnoremap <Leader>s :<C-u>FZF<CR>
 
+" YouCompleteMe
+
+" CPP
+
+let g:ycm_clangd_uses_ycmd_caching=0
+let g:ycm_clangd_binary_path=exepath("clangd")
+
 " ----------------
 " WSL cursor issue
 " ----------------
