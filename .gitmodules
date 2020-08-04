@@ -22,3 +22,6 @@
 [submodule "pack/bundle/start/nerdcommenter"]
 	path = pack/bundle/start/nerdcommenter
 	url = https://github.com/preservim/nerdcommenter
+[submodule "pack/extend/start/YouCompleteMe"]
+	path = pack/extend/start/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe
