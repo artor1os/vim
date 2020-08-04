@@ -19,3 +19,6 @@
 [submodule "pack/bundle/start/fzf"]
 	path = pack/bundle/start/fzf
 	url = https://github.com/junegunn/fzf.git
+[submodule "pack/bundle/start/nerdcommenter"]
+	path = pack/bundle/start/nerdcommenter
+	url = https://github.com/preservim/nerdcommenter
