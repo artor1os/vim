@@ -123,7 +123,7 @@ let g:hardtime_maxcount=1
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
-nnoremap <Leader>n :<C-u>NERDTreeToggle<CR>
+nnoremap <silent> <Leader>n :<C-u>NERDTreeToggle<CR>
 nnoremap <silent> <Leader>v :<C-u>NERDTreeFind<CR>
 
 let NERDTreeQuitOnOpen=1
@@ -136,7 +136,7 @@ let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=1
 
 " fzf
-nnoremap <Leader>s :<C-u>FZF<CR>
+nnoremap <silent> <Leader>s :<C-u>FZF<CR>
 
 " YouCompleteMe
 
@@ -146,7 +146,7 @@ let g:ycm_clangd_uses_ycmd_caching=0
 let g:ycm_clangd_binary_path=exepath("clangd")
 
 " tagbar
-nnoremap <Leader>g :<C-u>TagbarToggle<CR>
+nnoremap <silent> <Leader>g :<C-u>TagbarToggle<CR>
 
 " nerdcommenter
 let g:NERDSpaceDelims=1
