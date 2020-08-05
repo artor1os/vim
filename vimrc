@@ -148,6 +148,11 @@ let g:ycm_clangd_binary_path=exepath("clangd")
 " tagbar
 nnoremap <Leader>g :<C-u>TagbarToggle<CR>
 
+" nerdcommenter
+let g:NERDSpaceDelims=1
+let g:NERDCommentEmptyLines=1
+let g:NERDTrimTrailingWhitespace=1
+
 " ----------------
 " WSL cursor issue
 " ----------------
