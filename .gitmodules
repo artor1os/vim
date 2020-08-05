@@ -31,3 +31,6 @@
 [submodule "pack/syntax/start/color_coded"]
 	path = pack/syntax/start/color_coded
 	url = https://github.com/jeaye/color_coded
+[submodule "pack/extend/start/tagbar"]
+	path = pack/extend/start/tagbar
+	url = https://github.com/majutsushi/tagbar
