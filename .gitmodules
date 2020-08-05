@@ -28,3 +28,6 @@
 [submodule "pack/bundle/start/auto-pairs"]
 	path = pack/bundle/start/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
+[submodule "pack/syntax/start/color_coded"]
+	path = pack/syntax/start/color_coded
+	url = https://github.com/jeaye/color_coded
