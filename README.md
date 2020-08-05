@@ -72,3 +72,11 @@ https://github.com/jeaye/color_coded
 ### tagbar
 
 https://github.com/majutsushi/tagbar
+
+### fugitive
+
+https://github.com/tpope/vim-fugitive
+
+### rhubarb
+
+https://github.com/tpope/vim-rhubarb
