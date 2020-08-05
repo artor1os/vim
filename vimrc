@@ -145,6 +145,9 @@ nnoremap <Leader>s :<C-u>FZF<CR>
 let g:ycm_clangd_uses_ycmd_caching=0
 let g:ycm_clangd_binary_path=exepath("clangd")
 
+" tagbar
+nnoremap <Leader>g :<C-u>TagbarToggle<CR>
+
 " ----------------
 " WSL cursor issue
 " ----------------
