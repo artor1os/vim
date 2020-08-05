@@ -109,7 +109,7 @@ let g:hardtime_timeout=2000
 
 let g:hardtime_showmsg=1
 
-let g:hardtime_ignore_buffer_patterns=["NERD.*"]
+let g:hardtime_ignore_buffer_patterns=["NERD.*", "__Tagbar__.*"]
 
 let g:hardtime_ignore_quickfix=1
 
@@ -147,6 +147,11 @@ let g:ycm_clangd_binary_path=exepath("clangd")
 
 " tagbar
 nnoremap <silent> <Leader>g :<C-u>TagbarToggle<CR>
+
+let g:tagbar_autofocus=1
+let g:tagbar_sort=0
+let g:tagbar_compact=1
+let g:tagbar_show_linenumbers=1
 
 " nerdcommenter
 let g:NERDSpaceDelims=1
