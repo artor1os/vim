@@ -34,3 +34,9 @@
 [submodule "pack/extend/start/tagbar"]
 	path = pack/extend/start/tagbar
 	url = https://github.com/majutsushi/tagbar
+[submodule "pack/bundle/start/fugitive"]
+	path = pack/bundle/start/fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "pack/bundle/start/rhubarb"]
+	path = pack/bundle/start/rhubarb
+	url = git://github.com/tpope/vim-rhubarb.git
