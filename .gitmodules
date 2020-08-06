@@ -40,3 +40,6 @@
 [submodule "pack/bundle/start/rhubarb"]
 	path = pack/bundle/start/rhubarb
 	url = git://github.com/tpope/vim-rhubarb.git
+[submodule "pack/bundle/start/airline"]
+	path = pack/bundle/start/airline
+	url = https://github.com/vim-airline/vim-airline
