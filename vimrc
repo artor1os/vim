@@ -167,3 +167,14 @@ if &term =~ '^xterm'
 " insert mode
     let &t_SI .= "\<Esc>[6 q"
 endif
+
+" -----
+" Color
+" -----
+colorscheme onehalfdark
+let g:airline_theme='onehalfdark'
+
+if exists('+termguicolors')
+    set termguicolors
+endif
+

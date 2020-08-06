@@ -43,3 +43,6 @@
 [submodule "pack/bundle/start/airline"]
 	path = pack/bundle/start/airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "custom/onehalf"]
+	path = custom/onehalf
+	url = https://github.com/sonph/onehalf

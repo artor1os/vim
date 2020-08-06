@@ -21,6 +21,10 @@ mkdir build && cd build
 cmake .. -DDOWNLOAD_CLANG=0
 make && make install
 make clean
+
+# correct one half color scheme directory
+ln -s pack/color/start/onehalf/{vim/colors,colors}
+ln -s pack/color/start/onehalf/{vim/autoload,autoload}
 ```
 
 ## bundles
@@ -80,3 +84,11 @@ https://github.com/tpope/vim-fugitive
 ### rhubarb
 
 https://github.com/tpope/vim-rhubarb
+
+### airline
+
+https://github.com/vim-airline/vim-airline
+
+### onehalf
+
+https://github.com/sonph/onehalf
