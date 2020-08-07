@@ -1,6 +1,10 @@
 # vim
 
-prerequisites:
+# NOTE
+
+some vim version v8.2.13xx causes NERDTree unable to open subdirectories
+
+# Prerequisites
 
 - vim - with lua, no luajit, python3
 - python3.8
@@ -29,66 +33,38 @@ ln -s pack/color/start/onehalf/{vim/autoload,autoload}
 
 ## bundles
 
-### sensible
+- [sensible](https://github.com/tpope/vim-sensible)
 
-https://github.com/tpope/vim-sensible
+- [surround](https://github.com/tpope/vim-surround)
 
-### surround
+- [easymotion](https://github.com/easymotion/vim-easymotion)
 
-https://github.com/tpope/vim-surround
+- [hardtime](https://github.com/takac/vim-hardtime)
 
-### easymotion
+- [nerdtree](https://github.com/preservim/nerdtree)
 
-https://github.com/easymotion/vim-easymotion
+- [nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
 
-### hardtime
+- [fzf](https://github.com/junegunn/fzf)
 
-https://github.com/takac/vim-hardtime
+- [nerdcommenter](https://github.com/preservim/nerdcommenter)
 
-### nerdtree
+- [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
 
-https://github.com/preservim/nerdtree
+- [auto-pairs](https://github.com/jiangmiao/auto-pairs)
 
-### nerdtree-git-plugin
+- [color_coded](https://github.com/jeaye/color_coded)
 
-https://github.com/Xuyuanp/nerdtree-git-plugin
+- [tagbar](https://github.com/majutsushi/tagbar)
 
-### fzf
+- [fugitive](https://github.com/tpope/vim-fugitive)
 
-https://github.com/junegunn/fzf
+- [rhubarb](https://github.com/tpope/vim-rhubarb)
 
-### nerdcommenter
+- [airline](https://github.com/vim-airline/vim-airline)
 
-https://github.com/preservim/nerdcommenter
+- [onehalf](https://github.com/sonph/onehalf)
 
-### YouCompleteMe
+- [devicons](https://github.com/ryanoasis/vim-devicons)
 
-https://github.com/ycm-core/YouCompleteMe
-
-### auto-pairs
-
-https://github.com/jiangmiao/auto-pairs
-
-### color_coded
-
-https://github.com/jeaye/color_coded
-
-### tagbar
-
-https://github.com/majutsushi/tagbar
-
-### fugitive
-
-https://github.com/tpope/vim-fugitive
-
-### rhubarb
-
-https://github.com/tpope/vim-rhubarb
-
-### airline
-
-https://github.com/vim-airline/vim-airline
-
-### onehalf
-
-https://github.com/sonph/onehalf
+- [comfortable motion](https://github.com/yuttie/comfortable-motion.vim)
