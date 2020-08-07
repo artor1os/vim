@@ -49,3 +49,6 @@
 [submodule "pack/bundle/start/devicons"]
 	path = pack/bundle/start/devicons
 	url = https://github.com/ryanoasis/vim-devicons
+[submodule "pack/bundle/start/comfortable-motion"]
+	path = pack/bundle/start/comfortable-motion
+	url = https://github.com/yuttie/comfortable-motion.vim
