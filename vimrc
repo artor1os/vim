@@ -180,5 +180,6 @@ endif
 " ------
 set ttyfast
 
-nnoremap <Leader>w <C-w>
+nnoremap <silent> <Leader>w <C-w>
+nnoremap <silent> <Leader>q :<C-u>q<CR>
 
