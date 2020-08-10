@@ -54,7 +54,7 @@ set wrap
 " set tabpagemax=50
 set cursorline
 set number
-set relativenumber
+" set relativenumber
 set noerrorbells
 " set visualbell
 " set mouse=a
