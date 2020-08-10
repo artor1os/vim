@@ -87,3 +87,4 @@ configure.sh
 
 - [devicons](https://github.com/ryanoasis/vim-devicons)
 
+- [unimpaired](https://github.com/tpope/vim-unimpaired)
