@@ -88,11 +88,6 @@ set hidden
 " set spell
 set wildignore+=.pyc,.swp
 
-" ------
-" Custom
-" ------
-set ttyfast
-
 " -------
 " Plugins
 " -------
@@ -179,4 +174,11 @@ if exists('+termguicolors')
     let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
     set termguicolors
 endif
+
+" ------
+" Custom
+" ------
+set ttyfast
+
+nnoremap <Leader>w <C-w>
 

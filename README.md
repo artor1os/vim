@@ -87,4 +87,3 @@ configure.sh
 
 - [devicons](https://github.com/ryanoasis/vim-devicons)
 
-- [comfortable motion](https://github.com/yuttie/comfortable-motion.vim)
