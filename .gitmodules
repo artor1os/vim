@@ -23,7 +23,7 @@
 	path = pack/bundle/start/nerdcommenter
 	url = https://github.com/preservim/nerdcommenter
 [submodule "pack/extend/start/YouCompleteMe"]
-	path = pack/extend/start/YouCompleteMe
+	path = pack/extend/opt/YouCompleteMe
 	url = https://github.com/ycm-core/YouCompleteMe
 [submodule "pack/bundle/start/auto-pairs"]
 	path = pack/bundle/start/auto-pairs

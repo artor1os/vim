@@ -88,3 +88,5 @@ configure.sh
 - [devicons](https://github.com/ryanoasis/vim-devicons)
 
 - [unimpaired](https://github.com/tpope/vim-unimpaired)
+
+- [coc.nvim](https://github.com/neoclide/coc.nvim)
