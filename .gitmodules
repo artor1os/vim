@@ -47,7 +47,7 @@
 	path = custom/onehalf
 	url = https://github.com/sonph/onehalf
 [submodule "pack/bundle/start/devicons"]
-	path = pack/bundle/start/devicons
+	path = pack/bundle/opt/devicons
 	url = https://github.com/ryanoasis/vim-devicons
 [submodule "pack/bundle/start/unimpaired"]
 	path = pack/bundle/start/unimpaired
