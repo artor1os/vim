@@ -52,3 +52,6 @@
 [submodule "pack/bundle/start/unimpaired"]
 	path = pack/bundle/start/unimpaired
 	url = https://github.com/tpope/vim-unimpaired
+[submodule "pack/syntax/start/rust"]
+	path = pack/syntax/start/rust
+	url = https://github.com/rust-lang/rust.vim

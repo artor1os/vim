@@ -90,3 +90,5 @@ configure.sh
 - [unimpaired](https://github.com/tpope/vim-unimpaired)
 
 - [coc.nvim](https://github.com/neoclide/coc.nvim)
+
+- [rust.vim](https://github.com/rust-lang/rust.vim)
