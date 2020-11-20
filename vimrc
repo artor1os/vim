@@ -20,7 +20,7 @@ set softtabstop=4
 " Search Options
 " --------------
 
-" set hlsearch
+set hlsearch
 set ignorecase
 " set incsearch
 set smartcase
@@ -274,4 +274,34 @@ function! s:CloseBracket()
     endif
 endfunction
 inoremap <expr> {<Enter> <SID>CloseBracket()
+
+" clear highlight search
+noremap <silent> <leader><CR> :noh<CR>
+
+" tab
+" Switch between tabs.
+nnoremap <leader>1 1gt
+nnoremap <leader>2 2gt
+nnoremap <leader>3 3gt
+nnoremap <leader>4 4gt
+nnoremap <leader>5 5gt
+nnoremap <leader>6 6gt
+nnoremap <leader>7 7gt
+nnoremap <leader>8 8gt
+nnoremap <leader>9 9gt
+
+" Easily create a new tab.
+noremap <leader>tN :tabnew<CR>
+
+" Easily close a tab.
+noremap <leader>tc :tabclose<CR>
+
+" Easily move a tab.
+noremap <leader>tm :tabmove<CR>
+
+" Easily go to next tab.
+noremap <leader>tn :tabnext<CR>
+
+" Easily go to previous tab.
+noremap <leader>tp :tabprevious<CR>
 
