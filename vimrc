@@ -153,6 +153,15 @@ let g:NERDSpaceDelims=1
 let g:NERDCommentEmptyLines=1
 let g:NERDTrimTrailingWhitespace=1
 
+" vim-go
+" disable vim-go :GoDef short cut (gd)
+" this is handled by LanguageClient [LC]
+let g:go_def_mapping_enabled = 0
+" also go doc mapping disabled
+let g:go_doc_keywordprg_enabled = 0
+" let g:go_doc_popup_window = 1
+let g:go_code_completion_enabled = 0
+
 " coc.nvim
 
 set cmdheight=2
