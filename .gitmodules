@@ -26,7 +26,7 @@
 	path = pack/extend/opt/YouCompleteMe
 	url = https://github.com/ycm-core/YouCompleteMe
 [submodule "pack/bundle/start/auto-pairs"]
-	path = pack/bundle/start/auto-pairs
+	path = pack/bundle/opt/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
 [submodule "pack/syntax/start/color_coded"]
 	path = pack/syntax/opt/color_coded
