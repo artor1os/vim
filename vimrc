@@ -225,6 +225,13 @@ if &term =~ '^xterm'
     let &t_SI .= "\<Esc>[6 q"
 endif
 
+" ----------
+" Fish issue
+" ----------
+if &shell =~# 'fish$'
+    set shell=sh
+endif
+
 " -----
 " Color
 " -----

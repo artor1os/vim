@@ -55,3 +55,6 @@
 [submodule "pack/syntax/start/rust"]
 	path = pack/syntax/start/rust
 	url = https://github.com/rust-lang/rust.vim
+[submodule "pack/syntax/start/vim-fish"]
+	path = pack/syntax/start/vim-fish
+	url = https://github.com/dag/vim-fish
