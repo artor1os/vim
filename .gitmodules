@@ -58,3 +58,6 @@
 [submodule "pack/syntax/start/vim-go"]
 	path = pack/syntax/start/vim-go
 	url = https://github.com/fatih/vim-go
+[submodule "pack/syntax/start/vim-fish"]
+	path = pack/syntax/start/vim-fish
+	url = https://github.com/kmarius/vim-fish
