@@ -229,9 +229,11 @@ omap ac <Plug>(coc-classobj-a)
 " ----------------
 if &term =~ '^xterm'
 " normal mode
-    let &t_EI .= "\<Esc>[0 q"
+    let &t_EI .= "\<CSI>2\ q"
 " insert mode
-    let &t_SI .= "\<Esc>[6 q"
+    let &t_SI .= "\<CSI>5\ q"
+" replace mode
+    let &t_SR .= "\<CSI>7\ q"
 endif
 
 " ----------
