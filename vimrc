@@ -227,7 +227,7 @@ omap ac <Plug>(coc-classobj-a)
 " ----------------
 " WSL cursor issue
 " ----------------
-if &term =~ '^xterm'
+if !has('macunix') && &term =~ '^xterm'
 " normal mode
     let &t_EI .= "\<CSI>2\ q"
 " insert mode
