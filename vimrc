@@ -239,9 +239,9 @@ endif
 " ----------
 " Fish issue
 " ----------
-if &shell =~# 'fish$'
-    set shell=sh
-endif
+" if &shell =~# 'fish$'
+    " set shell=sh
+" endif
 
 " -----
 " Color
